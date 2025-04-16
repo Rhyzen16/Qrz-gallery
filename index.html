@@ -37,16 +37,12 @@
       margin-right: 20px;
     }
 
-    .profile-info {
-      color: #e0e0e0;
-    }
-
     .profile-name {
       margin: 0;
       color: #61dafb;
     }
 
-    .profile-title {
+    .profile-role {
       margin: 4px 0 0;
     }
 
@@ -61,9 +57,18 @@
       margin: 20px 0;
     }
 
-    /* Section Titles */
     .section-title {
       color: #4ea1f3;
+    }
+
+    a {
+      color: #61dafb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #4ea1f3;
+      text-decoration: underline;
     }
 
     /* Gallery Styles */
@@ -81,7 +86,6 @@
       object-fit: cover;
     }
 
-    /* Responsive Adjustments */
     @media (max-width: 600px) {
       .profile-header {
         flex-direction: column;
@@ -96,22 +100,6 @@
       .image-gallery {
         grid-template-columns: 1fr 1fr;
       }
-    }
-
-    /* Extra Styles */
-    a {
-      color: #61dafb;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: #4ea1f3;
-      text-decoration: underline;
-    }
-
-    /* Fix for QRZ styling (if needed) */
-    #t_bio.biodiv {
-      background-color: #FFFFFF;
     }
   </style>
 </head>
@@ -135,9 +123,9 @@
     <!-- Profile Header -->
     <div class="profile-header">
       <img alt="DY3ZXG" class="profile-image" src="https://raw.githubusercontent.com/Rhyzen16/Qrz-Css-Testing/main/2x2.jpg" />
-      <div class="profile-info">
+      <div>
         <h1 class="profile-name">DY3ZXG</h1>
-        <p class="profile-title"><span style="font-family:Georgia,serif">Amateur Radio Operator</span> | <span style="font-family:Georgia,serif">Electronics Enthusiast</span> | <span style="font-family:Georgia,serif">Tinkerer</span></p>
+        <p class="profile-role"><span style="font-family:Georgia,serif">Amateur Radio Operator</span> | <span style="font-family:Georgia,serif">Electronics Enthusiast</span> | <span style="font-family:Georgia,serif">Tinkerer</span></p>
         <p class="profile-location"><strong>Philippines</strong></p>
       </div>
     </div>
@@ -162,16 +150,16 @@
 
     <hr class="divider" />
 
-    <!-- Gallery -->
+    <!-- Gallery Section -->
     <h2 class="section-title"><em>Gallery</em></h2>
     <div class="image-gallery">
-      <img src="https://via.placeholder.com/200?text=1" alt="Image 1" />
-      <img src="https://via.placeholder.com/200?text=2" alt="Image 2" />
-      <img src="https://via.placeholder.com/200?text=3" alt="Image 3" />
-      <img src="https://via.placeholder.com/200?text=4" alt="Image 4" />
-      <img src="https://via.placeholder.com/200?text=5" alt="Image 5" />
-      <img src="https://via.placeholder.com/200?text=6" alt="Image 6" />
-      <!-- Add more images here -->
+      <img src="https://via.placeholder.com/200?text=1" alt="Image 1">
+      <img src="https://via.placeholder.com/200?text=2" alt="Image 2">
+      <img src="https://via.placeholder.com/200?text=3" alt="Image 3">
+      <img src="https://via.placeholder.com/200?text=4" alt="Image 4">
+      <img src="https://via.placeholder.com/200?text=5" alt="Image 5">
+      <img src="https://via.placeholder.com/200?text=6" alt="Image 6">
+      <!-- Add as many images as you want here -->
     </div>
   </div>
 
