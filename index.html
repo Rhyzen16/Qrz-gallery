@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DY3ZXG - QRZ Profile</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+      background-color: black;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .profile-container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #1e1e1e;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .profile-header {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .profile-image {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 2px solid #61dafb;
+      margin-right: 20px;
+    }
+
+    .profile-info {
+      color: #e0e0e0;
+    }
+
+    .profile-name {
+      margin: 0;
+      color: #61dafb;
+    }
+
+    .profile-title {
+      margin: 4px 0 0;
+    }
+
+    .profile-location {
+      font-size: 0.9em;
+      color: #aaaaaa;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #333;
+      margin: 20px 0;
+    }
+
+    /* Section Titles */
+    .section-title {
+      color: #4ea1f3;
+    }
+
+    /* Gallery Styles */
+    .image-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .image-gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 600px) {
+      .profile-header {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .profile-image {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+
+      .image-gallery {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    /* Extra Styles */
+    a {
+      color: #61dafb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #4ea1f3;
+      text-decoration: underline;
+    }
+
+    /* Fix for QRZ styling (if needed) */
+    #t_bio.biodiv {
+      background-color: #FFFFFF;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-container">
+    <!-- Logos -->
+    <p style="text-align:center;">
+      <img src="hampages/dy3zxg/DY3ZXG.gif" style="height:253px; width:300px;" alt="DY3ZXG Logo" />
+    </p>
+
+    <p><strong><em>A Member of:</em></strong></p>
+
+    <p style="text-align:center;">
+      <img src="hampages/dy3zxg/B14C_BE93_4134_A704_9A082B1254D1.png" style="height:312px; width:300px;" alt="PARE Badge" />
+    </p>
+
+    <p style="text-align:center;"><span style="font-family:Georgia,serif">PARE-051</span></p>
+    <p style="text-align:center"><strong>Pulilan Amateur Radio Enthusiast</strong> (<span style="font-family:Georgia,serif">PARE</span>), <strong>Inc</strong></p>
+
+    <!-- Profile Header -->
+    <div class="profile-header">
+      <img alt="DY3ZXG" class="profile-image" src="https://raw.githubusercontent.com/Rhyzen16/Qrz-Css-Testing/main/2x2.jpg" />
+      <div class="profile-info">
+        <h1 class="profile-name">DY3ZXG</h1>
+        <p class="profile-title"><span style="font-family:Georgia,serif">Amateur Radio Operator</span> | <span style="font-family:Georgia,serif">Electronics Enthusiast</span> | <span style="font-family:Georgia,serif">Tinkerer</span></p>
+        <p class="profile-location"><strong>Philippines</strong></p>
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- About Me -->
+    <h2 class="section-title"><em>About Me</em></h2>
+    <p>Hello! I'm DY3ZXG, a duly licensed amateur radio operator here in the Philippines.</p>
+    <p>I love connecting with people around the world.</p>
+
+    <!-- Thanks -->
+    <h2 class="section-title"><em>Thanks for visiting my QRZ page!</em></h2>
+
+    <!-- Contact/Links -->
+    <h2 class="section-title"><em>Information</em></h2>
+    <p>
+      <a href="https://qrz.com/db/DY3ZXG">QRZ Refresh</a> |
+      <a href="https://github.com/Rhyzen16">Code</a> |
+      <a href="mailto:rhyzensb2knows@gmail.com">Email</a>
+    </p>
+
+    <hr class="divider" />
+
+    <!-- Gallery -->
+    <h2 class="section-title"><em>Gallery</em></h2>
+    <div class="image-gallery">
+      <img src="https://via.placeholder.com/200?text=1" alt="Image 1" />
+      <img src="https://via.placeholder.com/200?text=2" alt="Image 2" />
+      <img src="https://via.placeholder.com/200?text=3" alt="Image 3" />
+      <img src="https://via.placeholder.com/200?text=4" alt="Image 4" />
+      <img src="https://via.placeholder.com/200?text=5" alt="Image 5" />
+      <img src="https://via.placeholder.com/200?text=6" alt="Image 6" />
+      <!-- Add more images here -->
+    </div>
+  </div>
+
+</body>
+</html>
